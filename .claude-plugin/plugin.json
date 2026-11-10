@@ -1,0 +1,13 @@
+{
+    "name": "trackuj",
+    "displayName": "jednoducho trackuj",
+    "description": "Track your working time in jednoducho trackuj from your AI app: start and stop Timers as you work, fill the gaps in today's work, prepare a Client's monthly Report, and see where your time went.",
+    "author": {
+        "name": "Monadial",
+        "url": "https://jednoduchotrackuj.sk"
+    },
+    "homepage": "https://jednoduchotrackuj.sk",
+    "repository": "https://github.com/monadial/trackuj-plugin",
+    "keywords": ["time tracking", "timesheets", "mcp"],
+    "skills": ["./skills/track", "./skills/review-day", "./skills/client-report", "./skills/where-did-time-go"]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "trackuj",
+    "interface": {
+        "displayName": "jednoducho trackuj"
+    },
+    "plugins": [
+        {
+            "name": "trackuj",
+            "source": {
+                "source": "local",
+                "path": "./"
+            },
+            "policy": {
+                "installation": "AVAILABLE",
+                "authentication": "ON_INSTALL"
+            },
+            "category": "Productivity"
+        }
+    ]
+}

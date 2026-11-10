@@ -1,0 +1,26 @@
+{
+    "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+    "name": "trackuj",
+    "description": "Track your working time in jednoducho trackuj from your AI app: start and stop Timers as you work, fill the gaps in today's work, prepare a Client's monthly Report, and see where your time went.",
+    "author": {
+        "name": "Monadial",
+        "url": "https://jednoduchotrackuj.sk"
+    },
+    "homepage": "https://jednoduchotrackuj.sk",
+    "repository": "https://github.com/monadial/trackuj-plugin",
+    "keywords": ["time tracking", "timesheets", "mcp"],
+    "extensions": {
+        "com.openai": {
+            "interface": {
+                "displayName": "jednoducho trackuj",
+                "shortDescription": "Track your working time where you already work.",
+                "developerName": "Monadial",
+                "category": "Productivity",
+                "capabilities": ["Read", "Write"],
+                "websiteURL": "https://jednoduchotrackuj.sk",
+                "privacyPolicyURL": "https://jednoduchotrackuj.sk/ochrana-osobnych-udajov",
+                "termsOfServiceURL": "https://jednoduchotrackuj.sk/obchodne-podmienky"
+            }
+        }
+    }
+}

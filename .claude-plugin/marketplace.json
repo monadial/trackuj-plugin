@@ -1,0 +1,15 @@
+{
+    "name": "trackuj",
+    "description": "jednoducho trackuj's plugin for AI apps: track your working time where you already work.",
+    "owner": {
+        "name": "Monadial",
+        "url": "https://jednoduchotrackuj.sk"
+    },
+    "plugins": [
+        {
+            "name": "trackuj",
+            "source": "./",
+            "description": "Track your working time in jednoducho trackuj from your AI app: start and stop Timers as you work, fill the gaps in today's work, prepare a Client's monthly Report, and see where your time went."
+        }
+    ]
+}

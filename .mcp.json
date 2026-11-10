@@ -1,0 +1,8 @@
+{
+    "mcpServers": {
+        "trackuj": {
+            "type": "http",
+            "url": "https://app.jednoduchotrackuj.sk/api/mcp"
+        }
+    }
+}
